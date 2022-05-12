@@ -49,7 +49,7 @@ hr {
 
 @font-face {
 	font-family: "Chopsic";
-	src: url("/Chopsic-K6Dp.ttf");
+	src: url("../Chopsic-K6Dp.ttf");
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
