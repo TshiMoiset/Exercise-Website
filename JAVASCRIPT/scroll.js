@@ -1,6 +1,6 @@
 /*------------------- Scroll -------------------*/
 
-//let scrollUp = window.pageYOffset;
+let scrollUp = window.pageYOffset;
 
 window.onscroll = function () {
     let scrollDown = window.pageYOffset;

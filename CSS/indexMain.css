@@ -1,0 +1,35 @@
+.heroImg {
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("../IMAGES/Wheeelie.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.heroImgText {
+	text-align: left;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 20px;
+    margin:2rem;
+}
+
+.heroImgText li {
+    padding: 20px 0;
+    list-style: none;
+}
+
+.heroMemberButton {
+	padding: 20px 0;
+    border: 2px solid white;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+
+}
