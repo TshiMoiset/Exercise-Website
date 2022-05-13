@@ -36,26 +36,15 @@
 
 @media screen and (max-width: 426px)  {
 	.heroImgText {
-		transform: translate(-60%, -50%);
+		text-align: left;
+		position: relative;
+		top: 50%;
+		left: 50%;
+		width: 50%;
 		color: white;
-		font-size: 1px;
-	 width: 50%; 
-	}
-	
-	.heroImgText li {
-		padding: 20px 0;
-		list-style: none;
 	}
 	
 	.heroImgText p {
 	padding: 15px 0;
-	}
-
-	.heroMemberButton {
-		padding: 20px 0;
-		border: 2px solid white;
-		padding: 15px;
-		text-decoration: none;
-		color: white;
 	}
 }

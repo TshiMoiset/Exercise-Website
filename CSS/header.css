@@ -15,6 +15,7 @@ header {
 	font-family: "Chopsic" !important;
 	font-size: 1.7rem !important;
 	user-select: none;
+	letter-spacing: 1px;
 }
 
 .screenLogo-NavButton {
