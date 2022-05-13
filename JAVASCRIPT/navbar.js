@@ -28,5 +28,3 @@ function closeNavbar() {
         document.getElementById("navButton").style.display = "none";
     }
 }
-
-
