@@ -27,11 +27,10 @@
 		align-items: center;
 	}
 
-	.heroImgText {
+	.heroImgText a {
 		
 		color: white;
 		font-size: 25px !important;
-	 /* width: 50%;  */
 	}
 }
 
