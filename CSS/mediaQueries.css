@@ -36,6 +36,16 @@
 	}
 }
 
+@media screen and (max-width: 541px) {
+	.heroImgText {
+		top: 23% !important;
+	}
+	
+	.heroImgText {
+		font-size: 20px !important;
+	}
+}
+
 @media screen and (max-width: 426px)  {
 	.heroImgText {
 		top: 15% !important;

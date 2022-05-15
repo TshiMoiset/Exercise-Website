@@ -26,6 +26,7 @@ header {
 	font-family: "Chopsic" !important;
 	transition: 300ms;
 	padding: 15px;
+	border-bottom: #61a2a9 solid 1px;
 }
 
 .screenLogo-NavButton ul {
