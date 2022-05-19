@@ -9,36 +9,36 @@
 	position: relative;
 }
 
-.heroImgText {
-	text-align: left;
-	position: absolute;
-	top: 35%;
-	left: 9%;
+.heroImg {
 	color: white;
 	font-size: 20px;
+	padding: 10em 7rem;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.heroImgText h1 {
-	width: 55%;
+.heroImg h1 {
+	font-size: 2em;
+	width: 60%;
 }
 
-.heroImgText li {
+.heroImg li {
 	list-style: none;
 	padding: 0;
 }
 
-.heroJoin {
-	padding: 10px 0;
+.heroJoinText {
+	padding:5px 0;
 }
 
-.heroMemberButton {
-	position: absolute;
-	top: 100%;
+.heroButton {
     border: 2px solid white;
     padding: 15px;
-    text-decoration: none;
     color: white;
+	text-decoration: none;
+}
+
+.heroButtonJoin {
+	padding: 20px 0;
 }
 
 .heroMemberButton a {
@@ -48,18 +48,16 @@
 .numberShowContainer {
 	display: flex;
 	justify-content: space-evenly;
+	flex-wrap: wrap;
 	align-items: center;
 	padding: 20px;
 	background-color: black;
 	color: white;
 	text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serifs;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	user-select: none;
 }
 
 .numberShowNumber {
 	font-size: 5rem	;
-}
-
-.numberShowText {
-	font-size: x-large;
 }

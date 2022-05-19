@@ -5,6 +5,7 @@
 
 	.navButton span {
 		display: flex;
+
 		width: 20px;
 		height: 2px;
 	}
@@ -26,40 +27,30 @@
 		justify-content: space-between;
 		align-items: center;
 	}
-
-	.heroImgText {
-		top: 23% !important;
-	}
 	
-	.heroImgText {
-		font-size: 17px !important;
+	.heroImg {
+		padding: 4.7em 5rem !important;
+	}
+
+	.heroImg h1 {
+		width: 90% !important;
 	}
 }
 
 @media screen and (max-width: 541px) {
-	.heroImgText {
-		top: 23% !important;
+	.numberShowContainer {
+		flex-direction: column;
+		padding: 20px;
 	}
+
+	.heroImg {
+		font-size:18px !important;
+	}
+}
 	
-	.heroImgText {
-		font-size: 20px !important;
-	}
-}
-
 @media screen and (max-width: 426px)  {
-	.heroImgText {
-		top: 15% !important;
-		left: 7% !important;
+	.heroImg {
+		font-size:17px !important;
 	}
-
-	.heroQuote h1 {
-		margin: 0px !important;
-		padding: 0px !important;
-		width: 70% !important;
-	}
-
-	.heroImgText {
-		font-size: 19px !important;
-	}
-		
 }
+
