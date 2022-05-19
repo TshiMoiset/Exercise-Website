@@ -44,7 +44,13 @@
 	}
 
 	.heroImg {
-		font-size:18px !important;
+		font-size: 18px !important;
+		padding: 5.8em 2rem !important;
+
+	}
+
+	.heroImg h1 {
+		width: 70% !important;
 	}
 }
 	
