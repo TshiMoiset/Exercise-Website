@@ -35,6 +35,11 @@
 	.heroImg h1 {
 		width: 90% !important;
 	}
+	
+	.figureContent img {
+	width: 300px !important;  
+	height: auto;
+	} 
 }
 
 @media screen and (max-width: 541px) {
