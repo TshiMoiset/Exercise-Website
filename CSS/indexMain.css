@@ -27,13 +27,13 @@
 }
 
 .heroJoinText {
-	padding:5px 0;
+	padding: 5px 0;
 }
 
 .heroButton {
-    border: 2px solid white;
-    padding: 15px;
-    color: white;
+	border: 2px solid white;
+	padding: 15px;
+	color: white;
 	text-decoration: none;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .heroMemberButton a {
-	margin: 20px ;
+	margin: 20px;
 }
 
 .numberShowContainer {
@@ -59,22 +59,27 @@
 }
 
 .numberShowNumber {
-	font-size: 5rem	;
+	font-size: 5rem;
 }
 
 figcaption {
 	text-align: left;
-	padding: 15px 0;
+	padding: 15px 0px;
+	background-color: black;
+	color: white;
+	width: 90%;
+	margin: 0px ;
 }
 
 .webbContainer {
 	display: grid;
-	grid-template-columns: auto auto;
+	justify-content: center;
+	grid-template-columns: 1fr 1fr;
+	padding: 20px;
 	align-items: center;
 }
 
-.figureContent  img {
-	/* width: 10px ; */
+.figureContent img {
 	max-width: 90%;
 	height: auto;
 }
