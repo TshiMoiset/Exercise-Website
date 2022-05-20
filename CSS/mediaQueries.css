@@ -46,17 +46,42 @@
 	.heroImg {
 		font-size: 18px !important;
 		padding: 5.8em 2rem !important;
-
 	}
 
 	.heroImg h1 {
 		width: 70% !important;
 	}
+
+	.numberShowNumber {
+		 margin: 20px; 
+	}
+
+	.numberShowText {
+		font-size: 25px;
+	}
 }
+
+@media screen and (max-width: 482px) and (min-width: 427px){
+	.heroImg {
+		font-size: 28px !important;
+		padding: 5.8em 2rem !important;
+
+	}
+
+	.heroImg h1 {
+		width: 100% !important;
+	}
+}
+
 	
 @media screen and (max-width: 426px)  {
 	.heroImg {
-		font-size:17px !important;
+		font-size: 26px !important;
+		padding: 4.8em 2rem !important;
+	}
+
+	.heroImg h1 {
+		width: 100% !important;
 	}
 }
 
