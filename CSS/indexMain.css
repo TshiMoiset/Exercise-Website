@@ -64,22 +64,37 @@
 
 figcaption {
 	text-align: left;
-	padding: 15px 0px;
-	background-color: black;
 	color: white;
-	width: 90%;
-	margin: 0px ;
+	padding: 0;
+	background-color: black;
+	padding: 20px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
 }
 
 .webbContainer {
-	display: grid;
-	justify-content: center;
-	grid-template-columns: 1fr 1fr;
-	padding: 20px;
-	align-items: center;
+	margin: 20px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	text-align: center;
+	transition: 500ms;
+}
+
+.webbContent {
+	background-color: black;
+	margin: 20px;
+	transition: 500ms;
+	cursor: pointer;
 }
 
 .figureContent img {
-	max-width: 90%;
+	width: 500px !important;
 	height: auto;
+	border-bottom: solid 3px #61a2a9 ;
+}
+
+.webbContent:hover {
+	border: solid 5px #61a2a9 ;
+	transition: 500ms;
 }
