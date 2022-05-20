@@ -1,7 +1,7 @@
 .heroImg {
 	min-height: 100vh;
 	width: 100%;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
 		url("../IMAGES/Wheeelie.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -60,4 +60,21 @@
 
 .numberShowNumber {
 	font-size: 5rem	;
+}
+
+figcaption {
+	text-align: left;
+	padding: 15px 0;
+}
+
+.webbContainer {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+}
+
+.figureContent  img {
+	/* width: 10px ; */
+	max-width: 90%;
+	height: auto;
 }
